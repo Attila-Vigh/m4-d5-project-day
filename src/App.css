@@ -1,7 +1,19 @@
 .App {
   text-align: center;
+  background-color: #161616 !important;
 }
-
+footer{
+  color: white;
+  background-color: #161616;
+}
+.list-group{
+  background-color: #161616 !important;
+}
+h4{
+  text-align: left;
+  color: white;
+  margin-left: 24px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +47,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list-group{
+  list-style: none;
 }
